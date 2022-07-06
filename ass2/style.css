@@ -1,0 +1,460 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#home {
+  width: 100vw;
+  height: 100vh;
+}
+.nav {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  display: flex;
+  position: sticky;
+  z-index: 1;
+}
+.logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 45%;
+  height: auto;
+}
+.menu {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 2rem;
+}
+.menu ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+}
+.buttons {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.buttons .b1 {
+  background-color: white;
+  border: 0.1rem solid rgb(109, 109, 248);
+  padding: 0.5rem;
+  color: rgb(109, 109, 248);
+  border-radius: 0.4rem;
+  font-size: 0.5rem;
+}
+.buttons .b2 {
+  background-color: rgb(109, 109, 248);
+  border: 0.1rem solid rgb(109, 109, 248);
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.4rem;
+  font-size: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.button1 .bt1 {
+  background-color: white;
+  border: 0.1rem solid rgb(109, 109, 248);
+  padding: 0.5rem;
+  color: rgb(109, 109, 248);
+  border-radius: 0.4rem;
+  font-size: 0.5rem;
+}
+.button1 {
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+
+.page1 {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+.page1 .textpage1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.textpage1 h1 {
+  padding: 20rem 0 0 8rem;
+  font-size: 4rem;
+}
+.textpage1 h1 span {
+  color: rgb(109, 109, 248);
+}
+.textpage1 p {
+  padding: 0 0 0 8rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  color: gray;
+}
+.page1 .imgpage1 {
+  width: 50%;
+  height: 100%;
+}
+.imgpage1 img {
+  padding: 14rem 0 0 0rem;
+}
+
+/* section1 completed */
+
+/* section2 */
+
+#about {
+  width: 100vw;
+  height: 100vh;
+}
+
+.textpage2 {
+  text-align: center;
+  width: 100%;
+  height: 20%;
+}
+.textpage2 h3 {
+  color: rgb(109, 109, 248);
+  font-size: 2rem;
+}
+.textpage2 h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+.detailpage2 {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+.detailpage2 .icons {
+  width: 30%;
+  height: 100%;
+  padding-right: 2rem;
+  margin-bottom: 4rem;
+}
+.text2page2 {
+  margin: 8rem 0 0 4rem;
+  border: 0.2rem solid rgb(187, 234, 252);
+  height: auto;
+  width: auto;
+  padding: 1rem;
+}
+.text2page2 i {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  background-color: rgb(187, 234, 252);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: rgb(61, 61, 61);
+}
+
+.text3page2 {
+  margin: 1rem 0 0 4rem;
+  border: 0.2rem solid rgb(187, 234, 252);
+  height: auto;
+  width: auto;
+  padding: 1rem;
+}
+.text3page2 i {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  background-color: rgb(187, 234, 252);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: rgb(61, 61, 61);
+  /* padding: 0 0 0 2rem; */
+}
+
+.detailpage2 .imagespage2 {
+  width: 70%;
+  height: auto;
+}
+.text4page2 {
+  margin-top: 8rem;
+  margin-left: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.text4page2 h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.buttons1 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.buttons1 .b21 {
+  background-color: rgb(109, 109, 248);
+  border: 0.1rem solid rgb(109, 109, 248);
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.4rem;
+  font-size: 0.5rem;
+  margin-left: 1.5rem;
+}
+.imagespage2 p {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.imagespage2 {
+  padding-right: 1rem;
+  width: 70%;
+  height: 100%;
+  margin-bottom: 4rem;
+}
+.imagespage2 img {
+  width: 80%;
+  height: auto;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+/* section2 completed */
+
+/* section3 */
+#section3 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box1sec3 {
+  width: 95%;
+  height: auto;
+  background-color: black;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  /* margin: 0 7rem 5rem 7rem; */
+
+  padding: 0 5rem 10rem 5rem;
+}
+.heading1sec3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading1sec3 h3 {
+  color: rgb(109, 109, 248);
+  padding-top: 8rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+}
+.heading1sec3 h1 {
+  color: white;
+  font-size: 4.2rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  margin-bottom: 7rem;
+  letter-spacing: 0.3rem;
+}
+.heading2sec3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 8rem;
+}
+.heading2sec3button {
+  color: white;
+  background-color: black;
+  border-top: none;
+  border-bottom: 0.5rem solid rgb(61, 61, 61);
+  border-left: none;
+  border-right: none;
+  width: 33.5%;
+  font-size: 1.5rem;
+  padding: 0 0 3rem 0;
+  cursor: pointer;
+}
+.heading2sec3button:focus {
+  outline: none;
+  border-bottom: 0.5rem solid rgb(109, 109, 248);
+}
+.iconsTextSec3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 2rem;
+}
+.iconsSec3 {
+  background-color: black;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.7rem;
+  padding-top: 3rem;
+  margin-left: 5rem;
+  align-items: flex-start;
+  justify-self: start;
+}
+.text2page3 {
+  background-color: rgb(31, 26, 26);
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text2page3 i {
+  font-size: 2rem;
+  color: rgb(109, 109, 248);
+  margin-right: 2rem;
+  padding: 1rem;
+}
+.text3page3 {
+  background-color: rgb(31, 26, 26);
+  margin-top: 1.6rem;
+  border-radius: 0.5rem;
+  color: white;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text3page3 i {
+  font-size: 2rem;
+  color: rgb(109, 109, 248);
+  margin-right: 2rem;
+  padding: 1rem;
+}
+.descriptionSec3 {
+  width: auto;
+  height: auto;
+  font-size: 2.5rem;
+  padding-left: 2.7rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  color: white;
+  margin-left: 11rem;
+  font-weight: 300;
+  line-height: 4.5rem;
+}
+
+.butbox2sec3 {
+  margin-top: 1rem;
+}
+
+.box2sec3 {
+  width: 95%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 12rem 3rem 12rem;
+  border-radius: 0.5rem;
+  border-top: 0.5rem solid rgb(109, 109, 248);
+}
+.textbox2sec3 p {
+  color: white;
+  font-size: 2.5rem;
+}
+.butbox2sec3 button {
+  background-color: rgb(109, 109, 248);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+
+/* section3 completed */
+#section4{
+  width: 100vw;
+  height: 100vh;
+  background-color: orangered;
+  
+}
+.head1Sec4{
+  padding: 5rem 0;
+  font-size:1.5rem;
+  font-weight: 500;
+  color: rgb(109, 109, 248);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+ 
+}
+.logosSec4{
+
+  padding: 5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+.mainSec4{
+  width: 100%;
+  height: 75%;
+  background-color: yellow;
+  display: flex;
+}
+.box1Sec4{
+  width: 40%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+.box2Sec4{
+  
+  width: auto;
+  height: auto;
+  background-color: rgb(240, 224, 227);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 3rem 0 3rem 3rem;
+  border-radius: 1rem;
+}
+.box2Sec4 img{
+  width: 99%;
+  height: 100%;
+}
+.boxSec4{
+  width: 100%;
+  height: 50%;
+  background-color: red;
+}
